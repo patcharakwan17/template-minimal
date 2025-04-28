@@ -1,14 +1,93 @@
+.color1{ color: #fffcf2; }
+.color2{ color: #ccc5b9; }
+.color3{ color: #403d39; }
+.color4{ color: #252422; }
+.color5{ color: #eb5e28; }
 
+
+/* Main */
 body{
     font-family: "Kanit", sans-serif;
+    background-color: #fffcf2;
 }
 header {
     display: flex;
     justify-content: space-between;
+    color: #403d39;
+    height: 57px;
+    padding: 1rem;
 }
-
+header nav a{
+    color: #000;
+    margin: 0 8px;
+}
 a{
     text-decoration: none;
+}
+.btn{
+    padding: .5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #403d39;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    transition: all .5s;
+}
+.btn:hover{
+    border-radius: 30px;
+    box-shadow: 2px 3px 10px #000;
+}
+.services-box{
+    padding: 1rem;
+    border: 1px solid #eee;
+    background-color: #fff;
+    margin: 10px;
+    max-width: 395px;
+    border-radius: 8px;
+    transition: all .5s;
+    color: #252422;
+}
+.services-box:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 7px #ddd;
+    transform: scale(1.03);
+
+    color: #fff;
+    background-color: #252422;
+}
+i {
+    font-size: 30px;
+    margin: 1rem auto 2rem;
+    /* color: #252422; */
+}
+
+/* Main */
+
+
+.section-1{
+    width: 100%;
+    background-color: #403d39;
+    text-align: center;
+    padding: 5rem 1.5rem;
+    color: #fffcf2;
+}
+
+.section-2{
+    width: 100%;
+    background-color: #ccc5b9;
+    text-align: center;
+    padding: 5rem 1.5rem;
+    color: #252422;
+}
+
+.section-3{
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    padding: 5rem 1.5rem;
+    color: #252422;
 }
 
 
